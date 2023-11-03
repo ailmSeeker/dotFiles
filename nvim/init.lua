@@ -1,5 +1,7 @@
-require('craftzdog.base')
-require('craftzdog.highlights')
-require('craftzdog.maps')
-require('craftzdog.plugins')
-require('craftzdog.macos')
+vim.g.mapleader = ' '
+vim.g.maplocalleader = ' '
+
+require('stormeagle.plugins')
+require('stormeagle.maps')
+
+
